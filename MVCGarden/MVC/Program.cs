@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MVC.Controllers;
+using System;
 
 namespace MVC
 {
@@ -6,7 +7,9 @@ namespace MVC
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            GardenController controller = new GardenController();
+
         }
     }
 }
